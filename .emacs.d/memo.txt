@@ -1,0 +1,13 @@
+//emacs-liveインストール
+https://github.com/overtone/emacs-live
+
+// ~/.emacs.d/init.el の末尾に追加
+(when (>= emacs-major-version 24)
+  (require 'package)
+  (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
+  (package-initialize)
+  (unless (package-installed-p 'init-loader)
+    (package-refresh-contents)
+    (package-install 'init-loader))
+  (require 'init-loader)
+  (init-loader-load))

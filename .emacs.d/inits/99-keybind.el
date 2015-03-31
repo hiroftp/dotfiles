@@ -1,0 +1,5 @@
+(global-set-key "\C-x\C-g" 'goto-line)
+(global-set-key (kbd "C-c l") 'toggle-truncate-lines)
+(global-set-key (kbd "C-t") 'other-window)
+(global-set-key (kbd "C-x y") 'direx:jump-to-directory-other-window)
+(global-set-key (kbd "C-x j") 'direx:jump-to-project-directory)
