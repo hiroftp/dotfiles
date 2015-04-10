@@ -53,7 +53,7 @@
       - { name: pyenv }
       - { name: go }
       - { name: scala }
-      - { name: stb }
+      - { name: sbt }
       - { name: ghc }
       - { name: cabal-install }
       - { name: opam }
