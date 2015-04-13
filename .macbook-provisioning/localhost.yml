@@ -64,6 +64,8 @@
       - { name: vim }
       - { name: emacs-mac }
       - { name: nginx }
+      - { name: docker }
+      - { name: boot2docker }
     homebrew_cask_packages:
       - { name: java }
       - { name: iterm2 }
@@ -76,7 +78,6 @@
       - { name: slack }
       - { name: dash }
       - { name: atom }
-      - { name: intellij-idea }
       - { name: dropbox }
       - { name: vagrant }
       - { name: virtualbox }
