@@ -70,6 +70,7 @@
       - { name: java }
       - { name: iterm2 }
       - { name: firefox }
+      - { name: opera }
       - { name: google-chrome }
       - { name: google-japanese-ime }
       - { name: adobe-reader }
